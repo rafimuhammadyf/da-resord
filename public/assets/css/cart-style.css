@@ -1,0 +1,239 @@
+*{
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: "segoe ui";
+	background-color: #efcc90;
+}
+.container h1{
+	margin: 25px 72px;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	float: left;
+	text-decoration: underline;
+}
+.cart-container{
+	padding: 72px;
+}
+header{
+	background-color: rgba(15,6,4,0.75);
+}
+header img{
+	width: 100px;
+	margin: 20px 75px;
+}
+.head-right{
+	float: right;
+	margin-right: 75px;
+}
+.head-right a{
+	text-decoration: none;
+	color: rgb(157,129,127);
+	opacity: 0.7;
+	margin-left: 50px; 
+	line-height: 57px;
+	letter-spacing: 1.1px;
+	transition: 1s;
+}
+.head-right a:nth-child(2){
+	opacity: 0.9;
+	letter-spacing: 1.25px;
+}
+.head-right a:hover{
+	color: rgb(175,129,127);
+	text-decoration: underline;
+	opacity: 1;
+}
+.produk{
+	margin: 40px 0; 
+}
+.produk img{
+	float: left;
+	width: 25%;
+	border-radius: 15pt;
+	margin-bottom: 25px;
+}
+.produk hr{
+	background-color: rgba(15,6,4,0.5);
+	outline: none;
+	border: 1px solid rgba(15,6,4,0.5);
+}
+.detail-produk{
+	padding: 10px;
+	float: left;
+	width: 70%;
+}
+.detail-produk h2{
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+.detail-produk h3, .detail-produk label{
+	margin: 15px;
+}
+.detail-produk a{
+	border-radius: 2pt;
+	text-decoration: none;
+}
+.detail-produk a:nth-child(5){
+	color: brown;
+	padding: 1px 8px;
+	border: 1px solid brown;
+}
+.detail-produk a:nth-child(7){
+	color: darkgreen;
+	padding: 1px 6px;
+	border: 1px solid darkgreen;
+	font-weight: bold;
+}
+.detail-produk input{
+	border: none;
+	outline: none;
+	padding: 5px 0;
+	cursor: default;
+	background-color: rgba(15,6,4,0.5);
+	color: #efcc90;
+	border-radius: 2pt;
+	text-align: center;
+	padding-left: 10px;
+}
+.price p{
+	font-size: 18px;
+	font-weight: lighter;
+	float: left;
+	margin-top: 45px;
+}
+.price span{
+	font-size: 29px;
+	letter-spacing: 1px;
+	float: right;
+	margin: -35px 0 0 660px;
+}
+.cart-sum{
+	text-align: center;
+	background-color: rgba(175,129,127,0.25);
+	width: 90%;
+	margin: 0 auto 75px auto;
+	padding: 25px 50px 75px 50px;
+}
+.cart-sum h1{
+	float: none;
+	margin-bottom: 50px;
+}
+.cart-sum p{
+	text-align: left;
+	font-size: 20px;
+}
+.cart-sum span{
+	float: right;
+	font-size: 32px;
+	font-weight: bold;
+	color: rgb(15,6,4);
+	margin-top: -36px;
+}
+.cart-sum button{
+	padding: 15px 30px;
+	outline: none;
+	font-size: 16px;
+	border: none;
+	letter-spacing: 1px;
+	float: right;
+	margin-top: 50px;
+	cursor: pointer;
+}
+footer{
+	background-color: rgb(15,6,4);
+	color: rgb(175,129,127);
+	font-family: "segoe ui";
+	padding: 60px 202px 120px 200px;
+	letter-spacing: 0.9px;
+	word-spacing: 0.8px;
+}
+footer h1{
+	font-size: 24px;
+	font-family: "segoe ui";
+}
+footer hr{
+	border: 1px solid #efcc90;
+	opacity: 0.33;
+	margin-top: 11px;
+}
+.foot{
+	float: left;
+	margin: 33px 150px 0 0;
+}
+.logo img{
+	width: 120px;
+}
+.foot h2{
+	font-size: 15px;
+	margin-bottom: 6px;
+}
+.foot a{
+	font-size: 11px;
+	text-decoration: none;
+	color: rgb(175,129,127);
+	transition: 0.75s;
+	opacity: 0.75;
+}
+.foot a:hover{
+	text-decoration: underline;
+	opacity: 1;
+}
+.foot li{
+	list-style-type: none;
+}
+.foot p{
+	font-size: 11px;
+	line-height: 25px;
+	margin-top: 0;
+}
+footer form{
+	margin-top: 33px;
+}
+footer form label{
+	font-size: 16px;
+	font-weight: bold;
+}
+footer form input{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 5px;
+	margin-top: 10px;
+	position: relative;
+}
+footer form input:focus{
+	outline: 1px solid rgb(170,30,30);
+}
+footer button{
+	position: absolute;
+	padding: 3.7px 9.5px;
+	font-size: 20px;
+	font-weight: bolder;
+	border: none;
+	background-color: #013220;
+	color: #efcc90;
+	margin: 10px 0 0 -31px;
+	cursor: pointer;
+}
+.con{
+	float: left;
+	margin-top: 20px;
+}
+.con a{
+	font-family: "font 100 icons 2018";	
+	text-decoration: none;
+	color: #efcc90;
+	opacity: 0.7;
+	font-size: 30px;
+	letter-spacing: 7.5px;
+}
+.cf{
+	clear: both;
+}

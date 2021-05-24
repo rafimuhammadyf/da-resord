@@ -1,0 +1,423 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: "segoe ui";
+}
+.top{
+	background-image: url('../../image/bg_top.png');
+	background-size: cover;
+	height: 857px;
+}
+header{
+	background-color: rgba(15,6,4,0.25);
+}
+header img{
+	width: 100px;
+	margin: 20px 75px;
+	opacity: 0.65;
+}
+.head-right{
+	float: right;
+}
+.head-right a{
+	text-decoration: none;
+	color: rgb(157,129,127);
+	opacity: 0.7;
+	margin-right: 65px; 
+	line-height: 65px;
+	letter-spacing: 1.1px;
+	transition: 1s;
+}
+.head-right a:nth-child(1){
+	opacity: 1;
+}
+.head-right a:hover{
+	color: rgb(175,129,127);
+	text-decoration: underline;
+	opacity: 1;
+}
+.copy-top{
+	text-align: center;
+	color: #013220;
+	letter-spacing: 1.5px;
+	margin-top: 200px;
+	opacity: 0.8;
+}
+.copy-top span{
+	color: rgba(15,6,4,0.7);
+}
+.copy-top h1{
+	font-size: 56px;
+}
+.copy-top h2{
+	font-size: 34.5px;
+}
+.btn-top{
+	text-align: center;
+	margin: 120px 0;
+	letter-spacing: 1.05px;
+	word-spacing: 25px;
+}
+.btn-top a{
+	color: white;
+	opacity: 0.6;
+	text-decoration: none;
+	word-spacing: 1px;
+	border-radius: 2.5pt;
+	transition: 0.5s;
+}
+.btn-top a:nth-child(1){
+	background-color: rgb(175,129,127);
+	border: 2px solid rgb(175,129,127);
+	padding: 15px 20px;
+	opacity: 0.8;
+}
+.btn-top a:nth-child(2){
+	border: 2px solid #013220;
+	padding: 15px 20px;
+	opacity: 0.5;
+}
+.btn-top a:hover{
+	opacity: 0.8;
+}
+.intro{
+
+}
+.intro-img{
+	float: left;
+}
+.intro-copy{
+	float: right;
+	text-align: right;
+	width: 810px;
+	margin: 50px 65px 0 0;
+}
+.intro-copy h1{
+	font-size: 22px;
+	letter-spacing: 0.75px;
+	word-spacing: 0.75px;
+	margin-bottom: 5px;
+	color: #013220;
+	opacity: 0.8;
+}
+.intro-copy hr{
+	width: 410px;
+	float: right;
+	border: 1px solid rgb(175,129,127);
+	opacity: 0.7;
+}
+.intro-copy p{
+	font-size: 13px;
+	letter-spacing: 0.6px;
+	word-spacing: 0.75px;
+	margin-top: 20px;
+}
+.menu{
+	background-color: #efcc90;
+	display: inline-block;
+	padding-bottom: 100px;
+	margin-top: -4px;
+}
+.menu-top{
+	text-align: center;
+	padding-top: 36px;
+}
+.menu h1{
+	opacity: 0.7;
+	font-size: 24px;
+	letter-spacing: 0.75px;
+	word-spacing: 1px;
+}
+.menu hr{
+	opacity: 0.7;
+	margin: 10px;
+	width: 300px;
+	margin: 10px auto;
+	border: 1px solid white;
+	background-color: white;
+}
+.menu-list{
+	margin-top: 50px;
+}
+.menu-list fieldset{
+	width: 180px;
+	height: 240px;
+	float: left;
+	margin: 50px 0 0 75px;
+	border-radius: 12pt;
+	border: 1px solid #013220;
+	opacity: 0.8;
+	transition: 0.7s;
+	cursor: default;
+}
+.menu-list fieldset:hover{
+	box-shadow: 3px 3px rgba(0,0,0,0.3);
+	opacity: 1;
+}
+.menu fieldset div{
+	background-color: #013220;
+	border-top-right-radius: 12pt; 
+	border-top-left-radius: 12pt; 
+	height: 70%;
+	text-align: center;
+}
+.menu fieldset img{
+	width: 150px;
+	margin: 10px 0 5px 0;
+	border-radius: 12pt;
+}
+.menu fieldset h1{
+	color: rgb(175,129,127);
+	font-size: 19px;
+	padding-top: 5px;
+}
+.menu fieldset p{
+	color: #013220;
+	background-color: rgba(175,129,127,0.3);
+	height: 30%;
+	border-bottom-right-radius: 12pt; 
+	border-bottom-left-radius: 12pt; 
+	font-size: 12px;
+	letter-spacing: 0.7px;
+	word-spacing: 0.7px;
+	padding: 10px 15px;
+}
+.wooden{
+	background-image: url('../../image/wooden.png');
+	padding: 75px 0 65px 0;
+	display: inline-block;
+	width: 100%;
+}
+.wood-copy h1{
+	color: rgb(212, 175, 55);
+	font-size: 36px;
+	font-style: italic;
+	letter-spacing: 1.25px;
+	margin: 0 0 45px 75px;
+	word-spacing: 0.5px;
+	opacity: 0.8;
+	text-decoration: underline;
+}
+.wood-copy h2{
+	float: right;
+	margin: -85px 70px 0 0;
+	background-color: rgb(15,6,4);
+	color: rgba(239,204,144,0.8);;
+	letter-spacing: 0.75px;
+	padding: 2.5px 7.5px;
+	border-radius: 2.5pt;
+}
+.wood-list fieldset{
+	width: 245px;
+	height: 320px;
+	float: left;
+	margin: 50px 0 70px 75px;
+	background-color: rgba(0,0,0,0.5);
+	border: none;
+	transition: 0.3s;
+	text-align: center;
+	padding: 15px 25px;
+	letter-spacing: 1px;
+	word-spacing: 0.5px;
+	cursor: default;
+}
+.wood-list fieldset:hover{
+	background-color: rgba(0,0,0,0.9);
+}
+.wood-list h1{
+	font-size: 20px;
+	color: rgba(239,204,144,0.7);
+}
+.wood-list span{
+	font-size:72px;
+	font-weight: bold;
+	color: rgb(239,204,144);
+}
+.wood-list hr{
+	border: 1px solid rgba(212, 175, 55, 0.7);
+	margin: 7.5px 0;
+}
+.wood-list p{
+	color: rgba(239,204,144,0.5);
+}
+.review{
+	background-color: rgba(212, 175, 55, 0.7);
+	padding: 40px 0;
+	display: inline-block;
+	width: 100%;
+}
+.rev{
+	float: left;
+	width: 108px;
+	margin: 65px 0 25px 75px;
+	text-align: center;
+	opacity: 0.8;
+}
+.rev img{
+	width: 70px;
+	border-radius: 25%;
+}
+.rev h2{
+	font-size: 15px;
+	margin: 2.5px 0 7.5px 0;
+}
+.rev p{
+	font-size: 12px;
+	letter-spacing: 0.8px;
+	word-spacing: 0.8px;
+	opacity: 1;
+}
+.rev span{
+	color: #013220;
+	font-size: 18px;
+	font-weight: bold;
+}
+.rev-copy h1{
+	color: rgba(15,6,4,0.8);
+	letter-spacing: 1px;
+	word-spacing: 0.8px;
+	font-size: 24px;
+	text-align: right;
+	margin-right: 75px;
+}
+.rev-copy hr{
+	width: 550px;
+	float: right;
+	margin: 5px 75px 0 0;
+	opacity: 0.6;
+	outline-color: white;
+	background-color: white;
+	border: 1px solid white;
+}
+.action{
+	background-color: rgba(175,129,127,0.25);
+	padding: 70px 75px 160px 75px;
+	text-align: center;
+}
+.action h1{
+	font-size: 30px;
+	word-spacing: 1.5px;
+	color: rgba(15,6,4,0.8);
+	margin-bottom: 50px;
+}
+.action a{
+	color: white;
+	opacity: 0.6;
+	text-decoration: none;
+	margin: 0 10px;
+	border-radius: 2.5pt;
+	transition: 0.7s;
+}
+.action a:nth-child(2){
+	background-color: rgb(175,129,127);
+	border: 2px solid rgb(175,129,127);
+	padding: 15px 20px;
+	opacity: 0.8;
+}
+.action a:nth-child(3){
+	border: 2px solid #013220;
+	padding: 15px 20px;
+	opacity: 0.5;
+	color: rgb(15,6,4);
+}
+.action a:hover{
+	opacity: 1;
+}
+footer{
+	background-color: rgb(15,6,4);
+	color: rgb(175,129,127);
+	font-family: "segoe ui";
+	padding: 60px 202px 120px 200px;
+	letter-spacing: 0.9px;
+	word-spacing: 0.8px;
+}
+footer h1{
+	font-size: 24px;
+	font-family: "segoe ui";
+}
+footer hr{
+	border: 1px solid #efcc90;
+	opacity: 0.33;
+	margin-top: 11px;
+}
+.foot{
+	float: left;
+	margin: 33px 150px 0 0;
+}
+.logo img{
+	opacity: 0.7;
+	width: 120px;
+}
+.foot h2{
+	font-size: 15px;
+	margin-bottom: 6px;
+}
+.foot a{
+	font-size: 11px;
+	text-decoration: none;
+	color: rgb(175,129,127);
+	transition: 0.75s;
+	opacity: 0.75;
+}
+.foot a:hover{
+	text-decoration: underline;
+	opacity: 1;
+}
+.foot li{
+	list-style-type: none;
+}
+.foot p{
+	font-size: 11px;
+	line-height: 25px;
+	margin-top: 0;
+}
+footer form{
+	margin-top: 33px;
+}
+footer form label{
+	font-size: 16px;
+	font-weight: bold;
+}
+footer form input{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 5px;
+	margin-top: 10px;
+	position: relative;
+}
+footer form input:focus{
+	outline: 1px solid rgb(170,30,30);
+}
+footer button{
+	position: absolute;
+	padding: 3.7px 9.5px;
+	font-size: 20px;
+	font-weight: bolder;
+	border: none;
+	background-color: #013220;
+	color: #efcc90;
+	margin: 10px 0 0 -31px;
+	cursor: pointer;
+}
+.con{
+	float: left;
+	margin-top: 20px;
+}
+.con a{
+	font-family: "font 100 icons 2018";
+	text-decoration: none;
+	color: #efcc90;
+	opacity: 0.7;
+	font-size: 30px;
+	letter-spacing: 7.5px;
+}
+.cf{
+	clear: both;
+}

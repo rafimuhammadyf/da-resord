@@ -1,0 +1,94 @@
+  	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	body{
+		font-family: "segoe ui";
+		background-image:  url('../../image/bg_top.png');
+		background-size: cover;
+	}
+	::placeholder{
+		color: rgb(0,0,0,0.6);
+		font-style: italic;
+	}
+	.back{
+		background-color: rgba(0,0,0,0.5);
+		background-size: cover;
+		height: 657px;
+		text-align: center;
+	}
+	.box{
+		background-color: rgba(175,129,127,0.25);
+		display: inline-block;
+		width: 30%;
+		padding-bottom: 30px;
+		margin-top: 174px;
+		box-shadow: 5px 5px rgba(1,50,32,0.3);
+		letter-spacing: 0.8px;
+		word-spacing: 0.8px;
+	}
+	.box h1{
+		color: rgba(255,255,255,0.7);
+		font-size: 20px;
+		font-weight: normal;
+		margin: 35px 0;
+	}
+	.box form input{
+		margin: 0 auto;
+		width: 82.25%;
+		padding: 15px 25px;
+		margin-bottom: 10px;
+		font-size: 12.5px;
+		letter-spacing: 0.8px;
+		word-spacing: 0.8px;
+		background-color: rgba(212, 175, 55, 0.2);
+		border: none;
+	}
+	.box form input:focus{
+		outline: none;
+		border: none;
+	}
+	.box form label{
+		font-size: 11px;
+		color: rgba(255,255,255,0.4);
+	}
+	.box form button{
+		border-radius: 0;
+		cursor: pointer;
+		border: none;
+		width: 82%;
+		padding: 10px 0;
+		margin-top: 25px;
+		background-color: rgba(15,6,4,0.8);
+		transition: 0.7s;
+	}
+	.box form button:focus{
+		outline: none;
+	}
+	.box form button:hover{
+		background-color: rgba(15,6,4,1);
+		color: rgba(239,204,144,0.8);
+	}
+	.box form button a{
+		color: rgba(239,204,144,0.5);
+		font-size: 12.5px;
+		letter-spacing: 1.25px;
+		text-decoration: none;
+		font-style: normal;
+	}
+	.box form button a:hover{
+		color: rgba(239,204,144,0.5);
+	}
+	.box a{
+		color: rgba(255,255,255,0.5);
+		font-size: 12px;
+		transition: 0.7s;
+		font-style: italic;
+	}
+	.box a:hover{
+		color: rgba(255,255,255,0.7);
+	}
+	.box span{
+		font-size: 12pt;
+	}

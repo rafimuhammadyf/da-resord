@@ -1,0 +1,419 @@
+*{
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: "segoe ui";
+}
+.top{
+	background-image: url('../../image/bg_top.png');
+	background-size: cover;
+	height: 857px;
+}
+header{
+	background-color: rgba(15,6,4,0.25);
+}
+header img{
+	width: 100px;
+	margin: 20px 75px;
+}
+.head-right{
+	float: right;
+	margin-right: 75px;
+}
+.head-right a{
+	text-decoration: none;
+	color: rgb(157,129,127);
+	opacity: 0.7;
+	margin-left: 50px; 
+	line-height: 57px;
+	letter-spacing: 1.1px;
+	transition: 1s;
+}
+.head-right a:nth-child(2){
+	opacity: 0.9;
+	letter-spacing: 1.25px;
+}
+.head-right a:hover{
+	color: rgb(175,129,127);
+	text-decoration: underline;
+	opacity: 1;
+}
+.copy-top{
+	text-align: center;
+	color: #013220;
+	letter-spacing: 1.5px;
+	margin-top: 200px;
+	opacity: 0.8;
+}
+.copy-top span{
+	color: rgba(15,6,4,0.7);
+}
+.copy-top h1{
+	font-size: 46px;
+}
+.copy-top h2{
+	font-size: 28.5px;
+}
+.btn-top{
+	text-align: center;
+	margin: 120px 0;
+	letter-spacing: 1.05px;
+	word-spacing: 25px;
+}
+.btn-top a{
+	color: white;
+	opacity: 0.6;
+	text-decoration: none;
+	word-spacing: 1px;
+	border-radius: 2.5pt;
+	transition: 0.5s;
+}
+.btn-top a:nth-child(1){
+	background-color: rgb(175,129,127);
+	border: 2px solid rgb(175,129,127);
+	padding: 15px 20px;
+	opacity: 0.5;
+}
+.btn-top a:nth-child(2){
+	border: 2px solid #013220;
+	padding: 15px 20px;
+	opacity: 0.5;
+}
+.btn-top a:hover{
+	opacity: 0.8;
+}
+.menu{
+	background-color: #efcc90;
+	display: inline-block;
+	padding-bottom: 100px;
+	margin-top: -4px;
+	text-align: center;
+}
+.menu-top{
+	text-align: center;
+	padding-top: 36px;
+}
+.menu h1{
+	opacity: 0.7;
+	font-size: 24px;
+	letter-spacing: 0.75px;
+	word-spacing: 1px;
+}
+.menu hr{
+	opacity: 0.7;
+	margin: 10px;
+	width: 300px;
+	margin: 10px auto;
+	border: 1px solid white;
+	background-color: white;
+}
+.menu-list hr{
+	width: 100%;
+}
+.menu-list{
+	margin-top: 50px;
+}
+.menu-list fieldset{
+	width: 180px;
+	float: left;
+	margin: 50px 0 0 75px;
+	border-radius: 12pt;
+	border: 1px solid #013220;
+	opacity: 0.8;
+	transition: 0.7s;
+	cursor: default;
+}
+.menu-list fieldset:hover{
+	box-shadow: 3px 3px rgba(0,0,0,0.3);
+	opacity: 1;
+}
+.up{
+	background-color: #013220;
+	border-top-right-radius: 12pt; 
+	border-top-left-radius: 12pt; 
+}
+.menu fieldset img{
+	width: 150px;
+	margin: 15px 0 25px 0;
+	border-radius: 12pt;
+}
+.menu fieldset h1{
+	color: rgb(175,129,127);
+	font-size: 19px;
+	padding-top: 5px;
+}
+.meja{
+	background-color: rgba(212, 175, 55, 0.7);
+	padding: 0 64px 144px 80px;
+	display: inline-block;
+}
+.meja-top{
+	text-align: center;
+	padding: 36px 0 72px 0;
+}
+.meja h1{
+	opacity: 0.8;
+	font-size: 24px;
+	letter-spacing: 0.75px;
+	word-spacing: 1px;
+}
+.meja hr{
+	opacity: 0.7;
+	margin: 10px;
+	width: 270px;
+	margin: 10px auto;
+	border: 1px solid white;
+	background-color: white;
+}
+.meja fieldset{
+	width: 100px;
+	float: left;
+	height: 150px;
+	margin: 0 20px 50px 0;
+	border-radius: 20pt;
+	cursor: pointer;
+	opacity: 0.7;
+	text-align: center;
+	border: 4px solid rgb(175,129,127);
+	background-color: #efcc90;
+	transition: 1s;
+}
+.meja fieldset:hover{
+	opacity: 0.9;
+}
+.meja legend{
+	padding: 0 7.5px 5px 7.5px;
+	background-color: rgb(175,129,127);
+	color: white;
+	font-size: 18px;
+	border-radius: 3pt;
+}
+.meja p{
+	text-transform: uppercase;
+	line-height: 100px;
+	color: #013220;
+	font-weight: bold;
+	letter-spacing: 0.5pt;
+}
+.box{
+	background-color: #efcc90;
+	padding: 0 72px 1150px 72px;
+	margin-top: -4px;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+.box-top{
+	text-align: center;
+	padding-top: 36px;
+}
+.box h1{
+	opacity: 0.7;
+	font-size: 28px;
+	letter-spacing: 0.75px;
+	word-spacing: 1px;
+}
+.box hr{
+	opacity: 0.7;
+	margin: 10px;
+	width: 300px;
+	margin: 10px auto;
+	border: 1px solid white;
+	background-color: white;
+}
+.repot{
+	float: left;
+	width: 40%;
+	margin: 50px 0 25px 80px;
+	padding: 15px 25px;
+	text-align: center;
+	border-top-right-radius: 50pt;
+	border-bottom-left-radius: 50pt;
+	color: rgba(15,6,4,0.5);
+}
+.repot h2{
+	text-decoration: underline;
+}
+.repot img{
+	width: 50%;
+	margin: 40px 0;
+}
+.a{
+	background-color: rgba(250,250,250,0.5);
+}
+.b{
+	background-color: rgba(212, 175, 55, 0.5);
+}
+.c{
+	background-color: rgba(175,129,127, 0.5);
+}
+.d{
+	background-color: rgba(1, 50, 32, 0.5);
+}
+.repot h2{
+	text-align: left;
+}
+.repot img{
+	
+}
+.repot p{
+	text-align: right;
+}
+.info{
+	color: #013220;
+	background-color: rgba(175,129,127,0.3);
+	border-bottom-right-radius: 12pt; 
+	border-bottom-left-radius: 12pt; 
+	font-size: 12px;
+	letter-spacing: 0.7px;
+	word-spacing: 0.7px;
+	padding: 10px 15px;
+}
+.info span{
+	font-size: 18px;
+	font-weight: bold;
+}
+.info button{
+	border-radius: 3pt;
+	margin: 10px 0 5px 0;
+	padding: 4px 6px;
+	cursor: pointer;
+	background-color: #013220;
+	outline: none;
+	border: none;
+	color: #dedede;
+}
+.box{
+	height: 1000px;
+	background-color: #efcc90;
+}
+.action{
+	background-color: rgba(175,129,127,0.25);
+	padding: 72px 75px 161px 75px;
+	text-align: center;
+}
+.action h1{
+	font-size: 30px;
+	word-spacing: 1.5px;
+	color: rgba(15,6,4,0.8);
+	margin-bottom: 50px;
+}
+.action a{
+	color: white;
+	opacity: 0.6;
+	text-decoration: none;
+	margin: 0 10px;
+	border-radius: 2.5pt;
+	transition: 0.7s;
+}
+.action a:nth-child(2){
+	background-color: rgb(175,129,127);
+	border: 2px solid rgb(175,129,127);
+	padding: 15px 20px;
+	opacity: 0.8;
+}
+.action a:nth-child(3){
+	border: 2px solid #013220;
+	padding: 15px 20px;
+	opacity: 0.5;
+	color: rgb(15,6,4);
+}
+.action a:hover{
+	opacity: 1;
+}
+footer{
+	background-color: rgb(15,6,4);
+	color: rgb(175,129,127);
+	font-family: "segoe ui";
+	padding: 60px 202px 120px 200px;
+	letter-spacing: 0.9px;
+	word-spacing: 0.8px;
+}
+footer h1{
+	font-size: 24px;
+	font-family: "segoe ui";
+}
+footer hr{
+	border: 1px solid #efcc90;
+	opacity: 0.33;
+	margin-top: 11px;
+}
+.foot{
+	float: left;
+	margin: 33px 150px 0 0;
+}
+.logo img{
+	width: 120px;
+}
+.foot h2{
+	font-size: 15px;
+	margin-bottom: 6px;
+}
+.foot a{
+	font-size: 11px;
+	text-decoration: none;
+	color: rgb(175,129,127);
+	transition: 0.75s;
+	opacity: 0.75;
+}
+.foot a:hover{
+	text-decoration: underline;
+	opacity: 1;
+}
+.foot li{
+	list-style-type: none;
+}
+.foot p{
+	font-size: 11px;
+	line-height: 25px;
+	margin-top: 0;
+}
+footer form{
+	margin-top: 33px;
+}
+footer form label{
+	font-size: 16px;
+	font-weight: bold;
+}
+footer form input{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 5px;
+	margin-top: 10px;
+	position: relative;
+}
+footer form input:focus{
+	outline: 1px solid rgb(170,30,30);
+}
+footer button{
+	position: absolute;
+	padding: 3.7px 9.5px;
+	font-size: 20px;
+	font-weight: bolder;
+	border: none;
+	background-color: #013220;
+	color: #efcc90;
+	margin: 10px 0 0 -31px;
+	cursor: pointer;
+}
+.con{
+	float: left;
+	margin-top: 20px;
+}
+.con a{
+	font-family: "font 100 icons 2018";	
+	text-decoration: none;
+	color: #efcc90;
+	opacity: 0.7;
+	font-size: 30px;
+	letter-spacing: 7.5px;
+}
+.cf{
+	clear: both;
+}

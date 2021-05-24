@@ -1,0 +1,160 @@
+*{
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: "segoe ui";
+	background-color: #efcc90;
+}
+header{
+	background-color: rgba(15,6,4,0.75);
+}
+header img{
+	width: 100px;
+	margin: 20px 75px;
+}
+.head-right{
+	float: right;
+	margin-right: 75px;
+}
+.head-right a{
+	text-decoration: none;
+	color: rgb(157,129,127);
+	opacity: 0.7;
+	margin-left: 50px; 
+	line-height: 57px;
+	letter-spacing: 1.1px;
+	transition: 1s;
+}
+.head-right a:nth-child(2){
+	opacity: 0.9;
+	letter-spacing: 1.25px;
+}
+.head-right a:hover{
+	color: rgb(175,129,127);
+	text-decoration: underline;
+	opacity: 1;
+}
+.container h1{
+	margin: 25px 72px;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	float: left;
+}
+.add{
+	background-color: #013220;
+	opacity: 0.7;
+	padding: 5pt 10px;
+	color: #efcc90;
+	border-radius: 5pt;
+	text-decoration: none;
+	float: right;
+	margin: 30px 64px;
+	transition: 0.5s;
+}
+.add:hover{
+	opacity: 0.9;
+}
+.profil{
+	text-align: center;
+	margin-top: 150px;
+}
+.profil hr{
+	width: 50%;
+	margin: 20px auto 25px auto;
+	border: none;
+	outline: 1px solid #013220;
+}
+.profil img{
+	width: 150px;
+	border-radius: 15pt;
+	border: 5px solid rgba(15,6,4,0.5);
+}
+.profil h2{
+	font-weight: normal;
+	line-height: 36px;
+	letter-spacing: 0.25px;
+}
+.orders{
+	margin-top: 100px;
+}
+.orders h2{
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 1pt;
+	text-align: center;
+	background-color: white;
+	width: 48%;
+	background-color: rgba(15,6,4,0.5);
+	color: #efcc90;
+	margin: 0 auto;
+	padding: 2px 0 5px 0;
+	border-radius: 2.5pt;
+}
+.orders span{
+	font-weight: bold;
+}
+.order{
+	margin: 20px 36px 10px 36px;
+	text-align: center;
+}
+.order p{
+	line-height: 28px;
+}
+.order hr{
+	border: 1px solid rgba(15,6,4,0.5);
+	margin: 20px auto 25px auto;
+	width: 500px;
+}
+.order button{
+	margin-top: 12px;
+	padding: 10px 15px;
+	font-size: 16px;
+	letter-spacing: 0.25px;
+	background-color: #013220;
+}
+table{
+	margin: 25px 72px;
+}
+thead{
+	background-color: rgba(157,129,127,0.7);
+	outline: 1px solid rgb(157,129,127);
+}
+td{
+	outline: 1px solid rgb(157,129,127);
+	text-align: center;
+	padding: 5px;
+}
+td p{
+	color: #efcc90;
+	padding: 2px 0;
+	background-color: #013220;
+	opacity: 0.5;
+	border: 1px solid #013220;
+}
+th{
+	padding: 5px 0;
+}
+button{
+	color: #efcc90;
+	background-color: rgb(157,129,127);
+	outline: none;
+	border: none;
+	padding: 4px 7px;
+	border-radius: 2pt;
+	cursor: pointer;
+}
+td a{
+	background-color: rgba(15,6,4,0.7);
+	padding: 2px 5px;
+	color: #efcc90;
+	border-radius: 2pt;
+	text-decoration: none;
+	font-size: 14px;
+	margin-right: 5px;
+}
